@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(#ffc2d1,#ffe5ec);
+            color: white;
+        }
+        .fieldset{
+            width: 70px;
+            height: 300px;
+            margin-left: 500px;
+            margin-top: 200px;
+        }
+        legend{
+            border-radius: 40px;
+            background-color: #fb6f9b;
+            width: 100px;
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 20px;
+            
+
+        }
+        legend:hover{
+            background-image: linear-gradient(#ffc2d1,#ffe5ec);
+        }
+        input{
+            width: 110px;
+            
+        }
+        textarea:hover{
+            background-image: linear-gradient(#ffc2d1,#ffe5ec);
+
+        }
+
+
+        
+        input:focus{
+            background-image: linear-gradient(#ffc2d1,#ffe5ec);
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset class="fieldset">
+        <legend>
+            Contact Us
+        </legend>
+        <label> 
+            <input type="text" placeholder="Write name"><br><br>
+        </label>
+        <label>
+            <input type="text" placeholder="type email"><br><br>
+        </label>
+        <textarea placeholder="Address"></textarea>
+        <fieldset>
+            <legend>New Message</legend>
+            <textarea></textarea>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
